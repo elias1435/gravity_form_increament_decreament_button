@@ -1,0 +1,37 @@
+.child_number_field input[type=number] {
+  display: none !important;
+}
+.child_number_field .ginput_container_text {
+    display: flex;
+    align-items: center;
+    width: 150px;
+    justify-content: space-between;
+}
+.child_number_field .ginput_container_text .qty-btn {
+    width: 42px !important;
+}
+.child_number_field .ginput_container_text {
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+}
+.child_number_field .ginput_container_text input {
+    text-align: center;
+    background: transparent;
+    border: none;
+}
+
+.child_number_field .minus-btn,
+.child_number_field .plus-btn {
+    width: 100px !important;
+    border-radius: 100%;
+    line-height: 1em;
+    height: 42px;
+    text-align: center;
+    padding: 0;
+    display: block;
+    font-size: 40px;
+    color: #fff;
+    background: var(--e-global-color-3571f5d ) !important;
+    border: 1px solid var(--e-global-color-3571f5d ) !important;
+}
